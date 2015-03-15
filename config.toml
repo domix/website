@@ -1,0 +1,33 @@
+baseurl = "http://domingosuarez.com/"
+languageCode = "en-us"
+title = "Domingo Suárez Torres"
+
+
+[params]
+  description = "Utopian software designer. Mostly a dog coder and motherforker. JVM generalist. I've been in local TV twice. I build stuff. Beer & Coffee lover. Groovy Knight."
+  mainIcon = "/img/hugo.png"
+  author_name = "Shu Uesugi"
+  twitter_username = "domix"
+  gravatar_id = "d747ad92018acd87a77899704fc6693d"
+  AuthorName = "Domingo Suárez Torres"
+  github = "domix"
+  bitbucket = "domix"
+  flickr = "domix"
+  twitter = "domix"
+  email = ""
+  cv = "/pages/about"
+  muut = ""
+  linkedin = "domix"
+  cover = "/images/background-cover.jpg"
+  logo = "http://www.gravatar.com/avatar/f2f6aa8f9b52814cd7c2eb7eecb9cda1.png"
+
+[[params.social]]
+    title = "twitter"
+    url = "https://twitter.com/domix"
+[[params.social]]
+    title = "github"
+    url = "https://github.com/domix"
+[[params.social]]
+    title = "linkedin"
+    url = ""
+
