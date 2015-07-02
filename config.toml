@@ -4,7 +4,7 @@ title = "Domingo Suárez Torres"
 theme = "hugo-uno"
 
 [params]
-  description = "Utopian software designer. Mostly a dog coder and motherforker. JVM generalist. I've been in local TV twice. I build stuff. Beer & Coffee lover. Groovy Knight."
+  description = "Utopian software designer and writer. Mostly a dog coder and motherforker. JVM generalist. I've been in local TV twice. I build stuff. Beer & Coffee lover. Groovy Knight."
   mainIcon = "/img/hugo.png"
   author_name = "Shu Uesugi"
   twitter_username = "domix"
