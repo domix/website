@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-./build.sh && rsync -avzhe ssh --delete --delete-after ./public deployer@198.58.120.79:/www/domingosuarez.org
+VER=$(grep "version" website.properties|cut -d'=' -f2)  && docker build -t domix/website:$VER . && docker push domix/website:$VER #&& kubectl set image deployment/website website=domix/website:$VER'
