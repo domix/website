@@ -1,0 +1,19 @@
+apiVersion: certmanager.k8s.io/v1alpha1
+kind: Certificate
+metadata:
+  name: domingosuarez-com-tls
+  namespace: domingo-website
+spec:
+  secretName: domingosuarez-com-tls
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+  commonName: domingosuarez.com
+  dnsNames:
+  - domingosuarez.com
+  acme:
+    config:
+    - http01:
+        ingress: website
+      domains:
+      - domingosuarez.com

@@ -1,0 +1,20 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: nginx
+  name: website
+  namespace: domingo-website
+spec:
+  rules:
+  - host: domingosuarez.com
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: website
+          servicePort: 80
+  tls:
+  - secretName: domingosuarez-com-tls
+    hosts:
+    - domingosuarez.com
