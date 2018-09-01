@@ -1,1 +1,2 @@
 public
+conf/k8s/04-wildcard-cert.yaml
