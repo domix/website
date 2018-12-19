@@ -22,7 +22,7 @@ spec:
         name: website
     spec:
       containers:
-        - image: domix/website:0.0.2
+        - image: domix/website:0.0.4
           name: website
           imagePullPolicy: Always
           resources:
