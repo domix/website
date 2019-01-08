@@ -11,6 +11,7 @@ spec:
   commonName: domingosuarez.com
   dnsNames:
   - domingosuarez.com
+  - www.domingosuarez.com
   acme:
     config:
     - http01:
